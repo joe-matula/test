@@ -15,5 +15,15 @@ namespace TestProject
         {
             InitializeComponent();
         }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            DevExpress.XtraEditors.XtraMessageBox.Show("This is the first message");
+        }
+
+        private void topLeftButton_Click(object sender, EventArgs e)
+        {
+            DevExpress.XtraEditors.XtraMessageBox.Show("This button is in the top left");
+        }
     }
 }
